@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recomendação de música</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+        <label for="generos">Qual o seu gênero favortito?</label>
+        <select id="generos" required>
+            <option selected value="">Gêneros</option>
+            <option value="call out my name the weeknd">R&B</option>
+            <option value="enhypen fever">Kpop</option>
+            <option value="wow post malone">Hip Hop</option>
+            <option value="she harry styles">Alternativo</option>
+            <option value="surtada tati zaqui e dada boladão">Brega Funk</option>
+            <option value="quase uma semana BIN">Rap</option>
+            <option value="take my breath the weeknd">Soul</option>
+            <option value="the weeknd blinding lights">Synthwave</option>
+        </select>
+        <button type="submit">pesquisar música</button>
+        <input type="text" name="q">
+    </form>
+
+</body>
+
+</html>
